@@ -9,4 +9,21 @@ public static class GenreMapping
     {
         return new GenreDto(genre.Id, genre.Name);
     }
+
+    public static Genre ToEntity(this CreateGenreDto genre)
+    {
+        return new Genre()
+        {
+            Name = genre.Name
+        };
+    }
+
+    public static Genre ToEntity(this UpdateGenreDto genre, int id)
+    {
+        return new Genre()
+        {
+            Id = id,
+            Name = genre.Name
+        };
+    }
 }
