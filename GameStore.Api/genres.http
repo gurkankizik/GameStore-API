@@ -2,7 +2,7 @@ GET http://localhost:5275/genres
 
 ###
 
-GET http://localhost:5275/genres/6
+GET http://localhost:5275/genres/1
 
 ###
 
@@ -15,7 +15,7 @@ Content-Type: application/json
 
 ###
 
-PUT http://localhost:5275/genres/6
+PUT http://localhost:5275/genres/8
 Content-Type: application/json
 
 {
@@ -25,4 +25,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:5275/genres/6
+DELETE http://localhost:5275/genres/7

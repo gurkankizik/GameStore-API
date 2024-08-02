@@ -10,7 +10,7 @@ POST http://localhost:5275/games
 Content-Type: application/json
 
 {
-    "name": "Final Fantasy IV",
+    "name": "Final a Fantasy IV",
     "genreId": 2,
     "price": 59.99,
     "releaseDate": "2010-09-30"
