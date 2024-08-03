@@ -2,11 +2,6 @@
 
 GameStore.Api is a RESTful API for managing a game store. It allows users to perform CRUD operations on games, manage user accounts, and handle transactions. The project also includes Docker support, enabling easy containerization and deployment of the application.
 
-## Table of Contents
-
-- [Features](#features)
-- [Technologies](#technologies)
-
 ## Features
 
 - CRUD operations for games
